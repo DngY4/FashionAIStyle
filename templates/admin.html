@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ _('Admin - FashionStyleAI') }}</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body>
+    <div class="container">
+        <h1>{{ _('Admin Dashboard') }}</h1>
+        <a href="{{ url_for('logout') }}">{{ _('Logout') }}</a>
+        <h2>{{ _('Fashion Knowledge Base') }}</h2>
+        <form id="updateKnowledgeBase">
+            <h3>{{ _('Occasions') }}</h3>
+            <textarea id="occasions" rows="5">{{ fashion_knowledge.occasions | join(', ') }}</textarea>
+            
+            <h3>{{ _('Style Rules') }}</h3>
+            {% for occasion, rules in fashion_knowledge.style_rules.items() %}
+                <label>{{ occasion }}</label>
+                <input type="text" name="style_rules[{{ occasion }}]" value="{{ rules | join(', ') }}">
+            {% endfor %}
+            
+            <h3>{{ _('Color Combinations') }}</h3>
+            {% for color, combinations in fashion_knowledge.color_combinations.items() %}
+                <label>{{ color }}</label>
+                <input type="text" name="color_combinations[{{ color }}]" value="{{ combinations | join(', ') }}">
+            {% endfor %}
+            
+            <h3>{{ _('Body Type Recommendations') }}</h3>
+            {% for body_type, recommendation in fashion_knowledge.body_type_recommendations.items() %}
+                <label>{{ body_type }}</label>
+                <textarea name="body_type_recommendations[{{ body_type }}]">{{ recommendation }}</textarea>
+            {% endfor %}
+            
+            <h3>{{ _('Current Trends') }}</h3>
+            <textarea id="currentTrends" rows="5">{{ fashion_knowledge.current_trends | join(', ') }}</textarea>
+            
+            <h3>{{ _('Style Personalities') }}</h3>
+            {% for style, description in fashion_knowledge.style_personalities.items() %}
+                <label>{{ style }}</label>
+                <textarea name="style_personalities[{{ style }}]">{{ description }}</textarea>
+            {% endfor %}
+            
+            <button type="submit">{{ _('Update Knowledge Base') }}</button>
+        </form>
+    </div>
+    <script src="{{ url_for('static', filename='js/admin.js') }}"></script>
+</body>
+</html>

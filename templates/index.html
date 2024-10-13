@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ _('FashionStyleAI') }}</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body>
+    <div class="container">
+        <h1>{{ _('FashionStyleAI') }}</h1>
+        <form id="styleForm">
+            <input type="text" id="occasion" placeholder="{{ _('Occasion') }}" required>
+            <input type="text" id="preferredColor" placeholder="{{ _('Preferred Color') }}">
+            <select id="bodyType">
+                <option value="">{{ _('Select Body Type') }}</option>
+                <option value="hourglass">{{ _('Hourglass') }}</option>
+                <option value="pear">{{ _('Pear') }}</option>
+                <option value="apple">{{ _('Apple') }}</option>
+                <option value="rectangle">{{ _('Rectangle') }}</option>
+                <option value="inverted triangle">{{ _('Inverted Triangle') }}</option>
+            </select>
+            <button type="submit">{{ _('Get Style Recommendation') }}</button>
+        </form>
+        <button id="trendAnalysis">{{ _('Get Trend Analysis') }}</button>
+        <button id="styleQuiz">{{ _('Take Style Quiz') }}</button>
+        <div id="result"></div>
+        <div id="trends"></div>
+        <div id="quizResult"></div>
+        <form id="imageUploadForm" enctype="multipart/form-data">
+            <input type="file" id="imageUpload" name="file" accept="image/*">
+            <button type="submit">{{ _('Analyze Outfit') }}</button>
+        </form>
+        <div id="imageAnalysisResult"></div>
+    </div>
+    <script src="{{ url_for('static', filename='js/main.js') }}"></script>
+</body>
+</html>

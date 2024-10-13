@@ -1,0 +1,115 @@
+# Spanish translations for FashionStyleAI
+msgid ""
+msgstr ""
+"Project-Id-Version: FashionStyleAI 1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-05-24 12:00+0000\n"
+"PO-Revision-Date: 2023-05-24 12:00+0000\n"
+"Last-Translator: Your Name <your.email@example.com>\n"
+"Language: es\n"
+"Language-Team: Spanish <ES@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+
+msgid "FashionStyleAI"
+msgstr "FashionStyleAI"
+
+msgid "Occasion"
+msgstr "Ocasión"msgid "Preferred Color"
+msgstr "Color preferido"
+
+msgid "Select Body Type"
+msgstr "Seleccionar tipo de cuerpo"
+
+msgid "Hourglass"
+msgstr "Reloj de arena"
+
+msgid "Pear"
+msgstr "Pera"
+
+msgid "Apple"
+msgstr "Manzana"
+
+msgid "Rectangle"
+msgstr "Rectángulo"
+
+msgid "Inverted Triangle"
+msgstr "Triángulo invertido"
+
+msgid "Get Style Recommendation"
+msgstr "Obtener recomendación de estilo"
+
+msgid "Get Trend Analysis"
+msgstr "Obtener análisis de tendencias"
+
+msgid "Take Style Quiz"
+msgstr "Hacer cuestionario de estilo"
+
+msgid "Analyze Outfit"
+msgstr "Analizar atuendo"
+
+msgid "Login"
+msgstr "Iniciar sesión"
+
+msgid "Username"
+msgstr "Nombre de usuario"
+
+msgid "Password"
+msgstr "Contraseña"
+
+msgid "Admin Dashboard"
+msgstr "Panel de administración"
+
+msgid "Logout"
+msgstr "Cerrar sesión"
+
+msgid "Fashion Knowledge Base"
+msgstr "Base de conocimientos de moda"
+
+msgid "Occasions"
+msgstr "Ocasiones"
+
+msgid "Style Rules"
+msgstr "Reglas de estilo"
+
+msgid "Color Combinations"
+msgstr "Combinaciones de colores"
+
+msgid "Body Type Recommendations"
+msgstr "Recomendaciones por tipo de cuerpo"
+
+msgid "Current Trends"
+msgstr "Tendencias actuales"
+
+msgid "Style Personalities"
+msgstr "Personalidades de estilo"
+
+msgid "Update Knowledge Base"
+msgstr "Actualizar base de conocimientos"
+
+msgid "Wear clothes that make you feel comfortable and confident."
+msgstr "Use ropa que le haga sentir cómodo/a y seguro/a."
+
+msgid "For a {occasion} occasion, we recommend a {style} style: {outfit}. Color scheme: {colors}. {body_type_rec}"
+msgstr "Para una ocasión {occasion}, recomendamos un estilo {style}: {outfit}. Esquema de color: {colors}. {body_type_rec}"
+
+msgid "Invalid data format"
+msgstr "Formato de datos inválido"
+
+msgid "AI model updated and retrained successfully"
+msgstr "Modelo de IA actualizado y reentrenado con éxito"
+
+msgid "No file part"
+msgstr "No hay parte del archivo"
+
+msgid "No selected file"
+msgstr "Ningún archivo seleccionado"
+
+msgid "File type not allowed"
+msgstr "Tipo de archivo no permitido"
+
+msgid "Invalid username or password"
+msgstr "Nombre de usuario o contraseña inválidos"

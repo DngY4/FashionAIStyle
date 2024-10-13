@@ -1,0 +1,47 @@
+{
+  "occasions": [
+    "formal", "casual", "business casual", "party", "date night", "workout", "beach"
+  ],
+  "style_rules": {
+    "formal": ["suit", "dress shirt", "tie", "dress shoes"],
+    "casual": ["jeans", "t-shirt", "sneakers"],
+    "business casual": ["slacks", "button-up shirt", "loafers"],
+    "party": ["cocktail dress", "heels", "statement jewelry"],
+    "date night": ["blazer", "dress pants", "dress shoes"],
+    "workout": ["athletic shorts", "performance t-shirt", "running shoes"],
+    "beach": ["swimsuit", "cover-up", "sandals"]
+  },
+  "color_combinations": {
+    "black": ["white", "red", "gold"],
+    "blue": ["white", "navy", "gray"],
+    "red": ["black", "white", "navy"],
+    "green": ["white", "brown", "beige"],
+    "purple": ["gold", "silver", "white"],
+    "yellow": ["navy", "white", "gray"]
+  },
+  "body_type_recommendations": {
+    "hourglass": "Emphasize your waist with fitted clothing and belts.",
+    "pear": "Balance your silhouette with tops that add volume to your upper body.",
+    "apple": "Choose flowing fabrics and V-necks to create a lengthening effect.",
+    "rectangle": "Create curves with peplum tops, wrap dresses, and cinched waists.",
+    "inverted triangle": "Balance your shoulders with A-line skirts or wide-leg pants."
+  },
+  "current_trends": [
+    "Oversized blazers",
+    "Pastel colors",
+    "Sustainable fashion",
+    "90s revival",
+    "Chunky sneakers",
+    "Puff sleeves",
+    "Neon accents",
+    "Bike shorts"
+  ],
+  "style_personalities": {
+    "classic": "You prefer timeless, polished looks that never go out of style.",
+    "bohemian": "Your style is free-spirited, with a mix of patterns, textures, and earthy tones.",
+    "minimalist": "You gravitate towards clean lines, neutral colors, and simple silhouettes.",
+    "preppy": "Your look is polished and put-together, often featuring traditional patterns and colors.",
+    "edgy": "You like to push boundaries with bold, daring choices and a hint of rebellion.",
+    "romantic": "Your style is soft, feminine, and often features floral prints and delicate details."
+  }
+}
